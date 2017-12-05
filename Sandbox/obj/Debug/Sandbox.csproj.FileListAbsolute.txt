@@ -7,3 +7,11 @@ c:\users\connor\documents\visual studio 2015\Projects\Sandbox\Sandbox\obj\Debug\
 c:\users\connor\documents\visual studio 2015\Projects\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.GenerateResource.Cache
 c:\users\connor\documents\visual studio 2015\Projects\Sandbox\Sandbox\obj\Debug\Sandbox.exe
 c:\users\connor\documents\visual studio 2015\Projects\Sandbox\Sandbox\obj\Debug\Sandbox.pdb
+C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.exe.config
+C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.exe
+C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.pdb
+C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.Form1.resources
+C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.Properties.Resources.resources
+C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.GenerateResource.Cache
+C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.exe
+C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.pdb

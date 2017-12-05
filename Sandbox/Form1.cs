@@ -32,7 +32,6 @@ namespace Sandbox
             Console.WriteLine(Encryption.DecryptString("U2FsdGVkX18RCEa2xypp0pd72Mkz / gQ6fWQwCMbRmu8 =", APIKeystring, iv2));
             */
             //Heaps.Controller.TestScenario();
-            Controller.subStringsKDist("nhssfpaadflfwqweufibgaibfa", 4);
                
         }
     }
