@@ -30,7 +30,15 @@ namespace Sandbox.Dynamic_Programming.Subsequences
         {
             return (a > b) ? a : b;
         }
-         
+        
+        /// <summary>
+        /// More efficient Tabulated, bottom-up Dynamic Programming solution.
+        /// </summary>
+        /// <param name="X"></param>
+        /// <param name="Y"></param>
+        /// <param name="m"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static int TabulatedLCSLength(char[] X, char[] Y, int m, int n)
         {
             int[][] L = new int[m+1][];
@@ -41,9 +49,8 @@ namespace Sandbox.Dynamic_Programming.Subsequences
                 L[i] = new int[n+1];
             }
 
-
             //Build L[m+1][n+1] from the bottom up. 
-
+            //L[m][n] will have the LCS length.
             for (int i=0; i<=m; i++)
             {
                 for (int j=0; j<=n; j++)
