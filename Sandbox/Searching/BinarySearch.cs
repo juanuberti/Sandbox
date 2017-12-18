@@ -40,7 +40,7 @@ namespace Sandbox.Searching
         /// <returns></returns>
         public int IterativeSearch( int[] OrderedNumbers, int Target)
         {
-            int l = 0, r = OrderedNumbers.Count(), middle;
+            int l = 0, r = OrderedNumbers.Count()-1, middle;
 
             while(l<r)
             {

@@ -67,6 +67,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScratchBook.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Tries\TrieNode.cs" />
     <Compile Include="Tries\Tries.cs" />
     <EmbeddedResource Include="Form1.resx">
