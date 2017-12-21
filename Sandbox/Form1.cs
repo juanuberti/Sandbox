@@ -19,11 +19,12 @@ namespace Sandbox
 
         private void button1_Click(object sender, EventArgs e)
         {
-             int[] arr = { 12, 11, 13, 5, 6, 7 };
 
-            Heaps.Heap heap = Heaps.Heap.CreateHeapFromArray(arr);
+            Sorting.CountingSort.Test();
 
-            Heaps.HeapSort.Sort(heap.Items);
+            Sorting.QuickSort.Test();
+
+            Sorting.BucketSort.Test();
 
             /*
             string apikey = "eEwZONwouE3j0uUL38iQbJ22DRSqjtT1";
