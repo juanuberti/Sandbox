@@ -52,13 +52,13 @@ namespace Sandbox.Sorting
             int[] R = new int[n2];
 
             //Fill them in
-            for(int i = 0; i < n1; i++)
+            for(int x = 0; x < n1; x++)
             {
-                L[i] = arr[l + i];
+                L[x] = arr[l + x];
             }
-            for (int j = 0; j < n2; j++)
+            for (int y = 0; y < n2; y++)
             {
-                R[j] = arr[m + 1 + j];
+                R[y] = arr[m + 1 + y];
             }
 
             //Now merge them
@@ -127,5 +127,4 @@ namespace Sandbox.Sorting
         }
     }
     
-}
 }

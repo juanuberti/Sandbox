@@ -15,3 +15,4 @@ C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.Properties.Resources
 C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.GenerateResource.Cache
 C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.exe
 C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.pdb
+C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache

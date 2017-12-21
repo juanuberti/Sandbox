@@ -22,6 +22,16 @@ namespace Sandbox.Heaps
             Items = new int[Capacity];
         }
 
+        public static Heap CreateHeapFromArray(int[] arr)
+        {
+            Heap heap = new Heaps.Heap(arr.Length);
+
+            for (int i = 0; i < arr.Length; i++)
+                heap.Add(arr[i]);
+
+            return heap;
+        }
+
         public int GetLeftIndex (int parentIndex) { return 2 * parentIndex + 1; }
         public int GetRightIndex (int parentIndex) { return 2 * parentIndex + 2; }
         public int GetParentIndex (int childIndex) { return (childIndex - 1) / 2; }
