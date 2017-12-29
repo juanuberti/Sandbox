@@ -57,7 +57,6 @@ namespace Sandbox.Sorting
         /// <summary>
         /// If we know the range of values (the minimum and maximum possible values in the array) we can Sort any list.
         /// Ofcourse, since CountSort has O(n+k) complexity, it is only really efficient if n is much larger than k.
-        /// In this example we fill the array from beginning to end, as opposed to the char example which fills it in by element index, right to left.
         /// </summary>
         /// <param name="arr"></param>
         /// <param name="minElement"></param>

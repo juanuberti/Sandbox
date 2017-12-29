@@ -20,11 +20,7 @@ namespace Sandbox
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Sorting.CountingSort.Test();
-
-            Sorting.QuickSort.Test();
-
-            Sorting.BucketSort.Test();
+            Sorting.CycleSort.Test();
 
             /*
             string apikey = "eEwZONwouE3j0uUL38iQbJ22DRSqjtT1";
