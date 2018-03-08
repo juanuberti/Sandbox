@@ -1,14 +1,16 @@
-﻿using System;
+﻿using Sandbox.Data_Structures;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Sandbox.Data_Structures.SinglyLinkedList;
 
 namespace Sandbox.Sorting
 {
     public class MergeSort
     {
-
+        #region basic sorting
 
         /// <summary>
         /// Splits the array into two halves, recursively calls self on those halves until they can't be split anymore and then merges the results.
@@ -125,6 +127,72 @@ namespace Sandbox.Sorting
             Console.WriteLine("\nSorted array");
             printArray(arr);
         }
+
+        #endregion
+
+
+        #region LinkedLists
+
+        /// <summary>
+        /// MergeSort for a singly-linked list.
+        /// O n(logn) time complexity.
+        /// Utilizes custom LinkedList class with utility methods.
+        /// </summary>
+        /// <param name="h"></param>
+        /// <returns></returns>
+        public static Node Sort(Node h)
+        {
+            // Base case : if head is null
+            if (h == null || h.next == null)
+            {
+                return h;
+            }
+
+            // get the middle of the list
+            Node middle = GetMiddle(h);
+            Node nextOfMiddle = middle.next;
+
+            // set the next of middle node to null, cutting it off from the right half of the list.
+            middle.next = null;
+
+            // Apply mergeSort on left list
+            Node left = Sort(h);
+
+            // Apply mergeSort on right list
+            Node right = Sort(nextOfMiddle);
+
+            // Merge the left and right lists
+            Node sortedlist = SortedMerge(left, right);
+
+            return sortedlist;
+        }
+
+
+        public void Test()
+        {
+
+            SinglyLinkedList li = new SinglyLinkedList();
+            /*
+             * Let us create a unsorted linked lists to test the functions Created
+             * lists shall be a: 2->3->20->5->10->15
+             */
+            li.Push(15);
+            li.Push(10);
+            li.Push(5);
+            li.Push(20);
+            li.Push(3);
+            li.Push(2);
+            Console.Write("Linked List without sorting is: ");
+            li.PrintList(li.head);
+
+            // Apply merge Sort
+            li.head = Sort(li.head);
+            Console.Write("\n Sorted Linked List is: ");
+            li.PrintList(li.head);
+        }
+
+        #endregion
+
+
     }
-    
 }

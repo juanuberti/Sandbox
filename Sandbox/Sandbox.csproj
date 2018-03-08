@@ -69,6 +69,7 @@
     <Compile Include="ScratchBook.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Sorting\BucketSort.cs" />
+    <Compile Include="Sorting\CombSort.cs" />
     <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\CycleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
