@@ -47,9 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
+    <Compile Include="Data Structures\DoublyLinkedList.cs" />
+    <Compile Include="Data Structures\LinkedList.cs" />
     <Compile Include="Dynamic Programming\Fibonacci.cs" />
+    <Compile Include="Dynamic Programming\Knapsack.cs" />
+    <Compile Include="Dynamic Programming\MinimumCostPath.cs" />
+    <Compile Include="Dynamic Programming\MinimumNumberOfEdits.cs" />
+    <Compile Include="Dynamic Programming\MinimumNumberOfPlatforms.cs" />
     <Compile Include="Dynamic Programming\Subsequences\LongestCommonSubsequence.cs" />
     <Compile Include="Dynamic Programming\Subsequences\LongestIncreasingSubsequence.cs" />
+    <Compile Include="Dynamic Programming\SubstringEqualToSum.cs" />
     <Compile Include="Dynamic Programming\Substrings.cs" />
     <Compile Include="Encryption\Encryption.cs" />
     <Compile Include="Form1.cs">
@@ -66,17 +73,20 @@
     <Compile Include="LINQ\LINQinPark.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions\TrappingRainWater.cs" />
     <Compile Include="ScratchBook.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Sorting\BucketSort.cs" />
     <Compile Include="Sorting\CombSort.cs" />
     <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\CycleSort.cs" />
+    <Compile Include="Sorting\DNF Sort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
-    <Compile Include="Tries\TrieNode.cs" />
-    <Compile Include="Tries\Tries.cs" />
+    <Compile Include="Data Structures\Tries\TrieNode.cs" />
+    <Compile Include="Data Structures\Tries\Tries.cs" />
+    <Compile Include="Strings and substrings\Permutations.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

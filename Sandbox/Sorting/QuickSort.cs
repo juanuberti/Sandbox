@@ -29,6 +29,15 @@ namespace Sandbox.Sorting
         /// <returns></returns>
         public static int Partition(int[] arr, int low, int high)
         {
+            /*
+             * if you want to implement random pivots, which reduces chances of worst-case scenario (eg sorted lists):
+            Random r = new Random();
+            int pivotIndex = r.Next(low, high + 1);
+            Swap(arr, pivotIndex, high);
+            int pivot = arr[high];
+            */
+
+
             int pivot = arr[high];
 
             int i = low - 1; // index of beginning section of the array.
@@ -69,7 +78,7 @@ namespace Sandbox.Sorting
                 RecursiveSort(arr, i + 1, high);
             }
         }
-
+        
         /// <summary>
         /// simple test function
         /// </summary>
