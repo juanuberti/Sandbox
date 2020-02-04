@@ -16,3 +16,12 @@ C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.GenerateResou
 C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.exe
 C:\Users\Connor\Documents\Sandbox\Sandbox\bin\Debug\Sandbox.pdb
 C:\Users\Connor\Documents\Sandbox\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\bin\Debug\Sandbox.exe.config
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\obj\Debug\Sandbox.exe
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\obj\Debug\Sandbox.pdb
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\bin\Debug\Sandbox.exe
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\bin\Debug\Sandbox.pdb
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\obj\Debug\Sandbox.Form1.resources
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\obj\Debug\Sandbox.Properties.Resources.resources
+C:\Users\juanu\Source\Repos\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.GenerateResource.Cache

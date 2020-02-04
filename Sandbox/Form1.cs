@@ -19,7 +19,7 @@ namespace Sandbox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Dynamic_Programming.MinimumCostPath.Test();
+            Backtracking.CombinationalSum.Test();
         }
     }
 }

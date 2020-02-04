@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backtracking\CombinationalSum.cs" />
+    <Compile Include="Backtracking\Sudoku.cs" />
     <Compile Include="Controller.cs" />
     <Compile Include="Data Structures\DoublyLinkedList.cs" />
     <Compile Include="Data Structures\LinkedList.cs" />
