@@ -57,7 +57,6 @@ namespace Sandbox.Backtracking
             return resultSet;
         }
 
-
         /// <summary>
         /// Driver code 
         /// </summary>

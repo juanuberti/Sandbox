@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Backtracking\CombinationalSum.cs" />
+    <Compile Include="Backtracking\RatInAMaze.cs" />
     <Compile Include="Backtracking\Sudoku.cs" />
     <Compile Include="Controller.cs" />
     <Compile Include="Data Structures\DoublyLinkedList.cs" />
