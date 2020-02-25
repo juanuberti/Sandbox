@@ -19,7 +19,7 @@ namespace Sandbox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Backtracking.RatInAMaze.Test();
+            Amz.b();
         }
     }
 }
