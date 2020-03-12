@@ -52,6 +52,8 @@
     <Compile Include="Controller.cs" />
     <Compile Include="Data Structures\DoublyLinkedList.cs" />
     <Compile Include="Data Structures\LinkedList.cs" />
+    <Compile Include="Dynamic Programming\EditDistance.cs" />
+    <Compile Include="Dynamic Programming\EggDroppingProblem.cs" />
     <Compile Include="Dynamic Programming\Fibonacci.cs" />
     <Compile Include="Dynamic Programming\Knapsack.cs" />
     <Compile Include="Dynamic Programming\MinimumCostPath.cs" />
