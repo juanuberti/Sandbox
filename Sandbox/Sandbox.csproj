@@ -70,6 +70,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="For Reals\Amz.cs" />
     <Compile Include="Heaps\Controller.cs" />
     <Compile Include="Heaps\Heap.cs" />
     <Compile Include="Heaps\MaxHeap.cs" />
