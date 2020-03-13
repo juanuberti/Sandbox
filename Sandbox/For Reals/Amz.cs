@@ -97,7 +97,7 @@ namespace Sandbox
 
             foreach (var hit in competitorHits.OrderBy(x => x.Value).Select(x => x.Key))
             {
-                output(nComp) = hit;
+                output[nComp] = hit;
                 if (nComp >= topNCompetitors)
                     break;
             }

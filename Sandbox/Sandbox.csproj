@@ -59,6 +59,7 @@
     <Compile Include="Dynamic Programming\MinimumCostPath.cs" />
     <Compile Include="Dynamic Programming\MinimumNumberOfEdits.cs" />
     <Compile Include="Dynamic Programming\MinimumNumberOfPlatforms.cs" />
+    <Compile Include="Dynamic Programming\MinimumPartition.cs" />
     <Compile Include="Dynamic Programming\Subsequences\LongestCommonSubsequence.cs" />
     <Compile Include="Dynamic Programming\Subsequences\LongestIncreasingSubsequence.cs" />
     <Compile Include="Dynamic Programming\SubstringEqualToSum.cs" />
